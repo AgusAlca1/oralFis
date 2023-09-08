@@ -2,12 +2,17 @@
 ## Node.js
 ### Que es? 
 En el pasado *JavaScript* (JS) era un leguaje de programación únicamente por un motor de un navegador.
-En el 2009, Ryan Dhal creo un entorno en el cual podía ejecutar JavaScript por fuera de un navegador. Lo hizo de la siguiente manera: al programa que escribió Ryan, le integro el V8 de Chrome(el motor de JS de ese navegador), el cual es código abierto y puede ejecutar con gran velocidad JS
+En el 2009, Ryan Dhal creo un entorno en el cual podía ejecutar *JavaScript* por fuera de un navegador. Lo hizo de la siguiente manera: al programa que escribió Ryan, le integro el *V8 de Chrome* (el motor de JS de ese navegador), el cual es código abierto y puede ejecutar con gran velocidad JS.
 ### Como funciona?
 NODE utiliza un **MODELO ASINCRONO Y ORIENTADO A EVENTOS**, lo que hace es que el procesamiento de una tarea no va a retrasar la ejecución de otras tareas, lo hace de manera liviana y eficiente. Está diseñado para construir aplicaciones en red escalables(la escalabilidad es la capacidad de una aplicación para manejar un número creciente de clientes o usuarios).
 
-### Para que tipos de programas se usa?
-asdfasdf
+### En que areas se usa?
+Aplicaciones de una sola página (SPA): para construir una aplicación web con una experiencia similar a la de una aplicación de escritorio, Node.js es ideal. Ofrece un entorno eficiente para desarrollar SPAs.
+
+Backend de redes sociales: LinkedIn, una red social líder, utiliza Node.js debido a su escalabilidad, el motor V8, una autenticación confiable y un enfoque basado en nodos.
+
+Streaming de datos: Netflix, por ejemplo, para poder transmitir su contenido a millones de usuarios utiliza *Node.js*. Su naturaleza ligera, carga eficiente y velocidad lo hacen perfecto para aplicaciones de streaming de datos.
+
 
 ### Comando para ejecutar node.js
 1. Posicionarse en la carpeta con el proyecto con extension .js
@@ -34,5 +39,21 @@ Node cuenta con su propio gestor de paquetes(un administrador de paquetes es un 
 
 
 ___
-### El archivo package.json 
+## El archivo package.json 
 
+Cuando creas un nuevo proyecto utilizando el comando **npm init**, se inicia un proceso que te guía a través de algunas preguntas. Una vez que respondes esas preguntas, se genera un archivo llamado "package.json" en la carpeta principal de tu proyecto. Tambien se puede crear el package sin pasar con el cuestionario haciendo **npm init -y**. Este archivo es como un documento que almacena información sobre tu proyecto en un formato que se parece a un texto estructurado. Dentro de este archivo, hay diferentes campos donde se guarda una variedad de información relacionada con el proyecto. 
+
+En esta imagen se muestra un ejemplo de lo que muestra el archivo
+
+![Alt text](image.png)
+
+
+
+___
+## Bibliografia
+
+1. https://kinsta.com/es/base-de-conocimiento/que-es-npm/
+2. https://www.youtube.com/watch?v=xJzzu7MVZXw
+3. https://www.youtube.com/watch?v=BhvLIzVL8_o&t=3362s\
+4. https://www.startechup.com/es/blog/node-js-what-it-is-used-for-and-when-where-to-use-it-for-your-enterprise-app-development/#Nodejs_for_Enterprise_App_Development
+5. https://lenguajejs.com/npm/administracion/package-json/
