@@ -12,6 +12,7 @@ Aplicaciones de una sola página (SPA): para construir una aplicación web con u
 Backend de redes sociales: LinkedIn, una red social líder, utiliza Node.js debido a su escalabilidad, el motor V8, una autenticación confiable y un enfoque basado en nodos.
 
 Streaming de datos: Netflix, por ejemplo, para poder transmitir su contenido a millones de usuarios utiliza *Node.js*. Su naturaleza ligera, carga eficiente y velocidad lo hacen perfecto para aplicaciones de streaming de datos.
+##Estadisticas
 
 
 ### Comando para ejecutar node.js
