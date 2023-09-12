@@ -15,10 +15,9 @@ NODE utiliza un **MODELO ASÍNCRONO Y ORIENTADO A EVENTOS**, lo que hace es que 
 
 ## ESTADÍSTICAS
 Según la encuesta de Stack Overflow en 2023…
-1. Node.js y React.js son las dos tecnologías web más usadas por todos los encuestados (Developers profesionales, personas aprendiendo a programar, entre otros)
+1. Node.js y React.js son las dos frameworks web más usadas por todos los encuestados (Developers profesionales, personas aprendiendo a programar, entre otros)
 2. Los developers profesionales usan casi igualmente Node.js que React.js (42.65% vs. 40.58%).
 3. La mayoría de usuarios de JQuery querrían aprender a usar Node.js o React el siguiente año
-
 
 ### Comando para ejecutar node.js
 1. Posicionarse en la carpeta con el proyecto con extensión .js
@@ -42,8 +41,6 @@ Node cuenta con su propio gestor de paquetes(es un sistema o conjunto de herrami
 1. npm install -g [nombre del paquete] (instala el paquete de forma global)
 2. npm uninstall -g [nombre del paquete] (desinstala el paquete de forma global)
 3. npm update -g [nombre del paquete] (actualiza el paquete de forma global)
-
-
 ___
 ## El archivo package.json 
 
@@ -52,15 +49,6 @@ Cuando creas un nuevo proyecto utilizando el comando **npm init**, se inicia un 
 En esta imagen se muestra un ejemplo de lo que muestra el archivo
 
 ![Alt text](image.png)
-
-
-## Comandos utiles
-- npm install -g [nombre del paquete] (instala el paquete de forma global)
-- npm uninstall -g [nombre del paquete] (desinstala el paquete de forma global)
-- npm update -g [nombre del paquete] (actualiza el paquete de forma global)
-
-
-
 ___
 ## Bibliografía
 1. https://kinsta.com/es/base-de-conocimiento/que-es-npm/
