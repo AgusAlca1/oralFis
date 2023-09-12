@@ -13,6 +13,12 @@ NODE utiliza un **MODELO ASÍNCRONO Y ORIENTADO A EVENTOS**, lo que hace es que 
 
 3. Streaming de datos: Netflix, por ejemplo, para poder transmitir su contenido a millones de usuarios utiliza *Node.js*. Su naturaleza ligera, carga eficiente y velocidad lo hacen perfecto para aplicaciones de streaming de datos.
 
+## ESTADÍSTICAS
+Según la encuesta de Stack Overflow en 2023…
+1. Node.js y React.js son las dos tecnologías web más usadas por todos los encuestados (Developers profesionales, personas aprendiendo a programar, entre otros)
+2. Los developers profesionales usan casi igualmente Node.js que React.js (42.65% vs. 40.58%).
+3. La mayoría de usuarios de JQuery querrían aprender a usar Node.js o React el siguiente año
+
 
 ### Comando para ejecutar node.js
 1. Posicionarse en la carpeta con el proyecto con extensión .js
@@ -48,12 +54,18 @@ En esta imagen se muestra un ejemplo de lo que muestra el archivo
 ![Alt text](image.png)
 
 
+## Comandos utiles
+- npm install -g [nombre del paquete] (instala el paquete de forma global)
+- npm uninstall -g [nombre del paquete] (desinstala el paquete de forma global)
+- npm update -g [nombre del paquete] (actualiza el paquete de forma global)
+
+
 
 ___
 ## Bibliografía
-
 1. https://kinsta.com/es/base-de-conocimiento/que-es-npm/
 2. https://www.youtube.com/watch?v=xJzzu7MVZXw
 3. https://www.youtube.com/watch?v=BhvLIzVL8_o&t=3362s\
 4. https://www.startechup.com/es/blog/node-js-what-it-is-used-for-and-when-where-to-use-it-for-your-enterprise-app-development/#Nodejs_for_Enterprise_App_Development
 5. https://lenguajejs.com/npm/administracion/package-json/
+6. 2023 developer survey - Stack Overflow - https://survey.stackoverflow.co/2023/#most-popular-technologies-platform
